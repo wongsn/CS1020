@@ -16,11 +16,17 @@ class NearestPoints {
 		int size = sc.nextInt();  // size of list;
 
 		ArrayList<Point> points = new ArrayList<Point>(size);
-
-		for(int i=0; i<size; i++){
-					
+		ArrayList<Integer> distance = new ArrayList<Integer>(Math.pow(2,size));
+		for(int i=0; i<size-1; i++){
+			points.add(i, Point(sc.nextInt(), sc.nextInt()));		
 				}
 
+		//Map method
+		//Quicksort method
+		// total number of combinations =  2^n
+		for(int j=0; j<size-1; j++){
+			distance(points[j] = distance[j]
+		}
 
 		System.out.printf("Minimum distance = %.2f\n", minDist);
 	}
