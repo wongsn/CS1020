@@ -1,4 +1,1 @@
-CS1020
-======
-
-CS1020: Data Structures and Algorithms
+This folder is to consolidate all learning and practise materials from CS1020 Codecrunch.
